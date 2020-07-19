@@ -1,11 +1,33 @@
 body{
-    background-image: url("nack1.jpg");
+    background-color:white;
     background-size: 100%;
     background-repeat: inherit;
 }
 .space{
     padding-top: 50vw;
     
+}
+.cover img{
+    max-width: 90vw;
+    height: auto;
+}
+.topnav{
+    background-color: #ffffff;
+    overflow: hidden;
+    padding: 10px;
+}
+.topnav a{
+    float: none;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.topnav a:hover{
+    background-color: antiquewhite;
+    color: white;
+}
 }
 .logobox {
     background-color:black;
@@ -18,9 +40,10 @@ p{
     padding-top: 1%;
 
 }
-img{
-    max-width: 40%;
+img{padding-top: 7vw;
+    max-width: 90vw;
     height: auto;
+    margin: auto;
 }
 .center{
     display: block;
@@ -33,7 +56,7 @@ img{
     text-align: center;
     font-family: sans-serif;
     text-shadow: 12px burlywood;
-    text-shadow: black;}
+    text-shadow:grey;}
 h2{
     color:white;
     text-shadow: cornflowerblue;
@@ -70,7 +93,7 @@ color: cadetblue;
 }
 .SUBMIT{
     font-size: 4vw;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Italic', sans-serif, italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
    
     color: cadetblue;
     background-color:white;
@@ -85,7 +108,7 @@ color: cadetblue;
 }
 .contact {
     font-size: 4vw;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Italic', sans-serif, italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
    
     color: cadetblue;
     background-color:white;
